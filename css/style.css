@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root{
+	--color-hover-menu:#FE8F01;
+}
+body{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color: white;
+}
+header{
+	background-color: #3d3d3d;
+	padding: 10px 0;
+}
+footer{
+	background-color: #333333;
+	color: #bababa;
+	padding: 15px 0;
+	text-align: center;
+}
+
+.section{
+	padding: 3% 0;
+}
+
+.section h2{
+	color: black;
+	padding: 45px;
+}
+
+.greyBG{
+	background-color: #494949;
+	padding: 20px 20px;
+}
+
+.greyBG h4{
+	padding: 20px 0;
+}
+
+.iconBadge{
+	background-color: var(--color-hover-menu);
+	height: 90px;
+	width: 90px;
+	border-radius: 45px;
+	font-size: 45px;
+	margin-left: 40%;
+	padding-top: 10px;
+	border-width: 50px;
+	border-color: white;
+}
+
+#aboutUs{
+	background-color: #F5F5F5;
+}
+
+#counter{
+	background-color: #010101;
+}
+
+#counter p{
+	color: var(--color-hover-menu);
+}
+
+#counter i{
+	font-size: 45px;
+}
+
+#counter h3{
+	padding: 20px;
+}
